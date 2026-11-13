@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-['Plus_Jakarta_Sans',_sans-serif]">
+
+    <nav class="p-[0_41px_0_42px] lg:p-[0_72px]">
+        <div class="w-100 h-[60px] flex justify-between items-center lg:w-100 lg:h-[64px]">
+            <img src="./images/Logo.png" alt="Logo">
+
+            <div class="hidden lg:flex lg:justify-center lg:items-center lg:gap-[60px] lg:text-gray-900 lg:text-base/[24px] lg:font-medium lg:ml-[195px]">
+                <p>Features</p>
+                <p>Pricing</p>
+                <p>About Us</p>
+            </div>
+
+            <div class="hidden lg:flex lg:justify-center lg:items-center lg:gap-[44px]">
+                <button class="w-[122px] h-[45px] text-black font-medium text-base/[24px]">Customer Login</button>
+                <button class="w-[114px] h-[45px] rounded-[10px] bg-black text-white font-bold text-base/[28px]" type="button">Sign up</button>
+            </div>
+
+            <div class="flex justify-center items-center gap-[44px] lg:hidden">
+                <img src="./images/Burger Button.svg">
+            </div>
+        </div>
+    </nav>
+    
+    <section class="flex flex-col justify-center items-center mt-[96px]">
+        <p class="text-center text-gray-600 font-regular font-['Inter'] mb-[20px]">An AI tool made for conversion rate optimization</p>
+        <div class="flex flex-col justify-center items-center gap-[32px]">
+            <p class="w-[400px] h-[218px] font-extrabold text-[52px] text-center lg:w-[627px] lg:h-[147px]">Increase your conversion rate <span class="text-pink-500 lg:bg-gradient-to-r from-pink-500 via-violet-500 to-blue-700 lg:bg-clip-text lg:text-transparent">using AI</span></p>
+            <button type="button" class="w-[222px] h-[56px] rounded-[10px] bg-black text-white font-bold text-lg/[24px]">Create account</button>
+            <div class="flex gap-[25px] text-gray-500 font-['Inter']"><p>30 Days free trial</p> <div class="w-[1px] h-[20px] bg-gray-500"></div> <p>No credit card required</p></div>
+        </div>
+
+        <div class="w-[330px] h-[541px] md:w-[350px] h-[541px] lg:w-[880px] lg:h-[541px]">
+            <img class="w-[880px] h-[541px] object-cover object-center" src="./images/Illustration.svg" alt="photo">
+        </div>
+    </section>
+
+</body>
+</html>
